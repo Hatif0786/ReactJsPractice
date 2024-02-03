@@ -3,23 +3,23 @@ import React from "react";
 
 const About = () => {
   const myStyle = {
-    color: "black",
-    backgroundColor: "white",
+    color: "rgb(33,37,41)",
+    backgroundColor: "rgb(248,249,250)",
   };
 
   const toggleTheme = () => {
-    if(mystyle.color=='white'){
+    if(mystyle.color=='rgb(248,249,250)'){
         setMyStyle({
-            color: "black",
-            backgroundColor: "white",
+            color: "rgb(33,37,41)",
+            backgroundColor: "rgb(248,249,250)",
         })
         setBtnMode("dark")
         setBtnText("Dark Mode")
 
     }else{
         setMyStyle({
-            color: "white",
-            backgroundColor: "black",
+            color: "rgb(248,249,250)",
+            backgroundColor: "rgb(33,37,41)",
         })
         setBtnMode("light")
         setBtnText("Smooth Mode")

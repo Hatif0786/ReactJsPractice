@@ -28,7 +28,7 @@ function App() {
       document.title = "TextUtils - Dark Mode";
     } else {
       setMode("light");
-      document.body.style.backgroundColor = "white";
+      document.body.style.backgroundColor = "rgb(248,249,250)";
       showAlert("Smooth Mode has been enabled!", "success");
       document.title = "TextUtils - Smooth Mode";
     }
